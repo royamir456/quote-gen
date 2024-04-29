@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital@0;1&family=Roboto+Condensed:ital,wght@0,700;1,400&family=Roboto:ital,wght@0,100;0,400;0,500;1,300;1,400&family=Work+Sans:wght@200;400;500;700&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Quote Generator</title>
+</head>
+<body>
+	<div class="quote-box">
+		<h1>Quote Of The Day</h1>
+		<blockquote id="quote">Buffering...</blockquote>
+		<span id="author">Buffering...</span>
+        <div>
+		<button onclick="getQuote(apiUrl);">New Quote</button>
+		<button onclick="tweet();"><img src="twitter.jpeg">Tweet</button>
+       </div>
+   </div>
+
+<script src="script.js"></script>
+</body>
+</html>
